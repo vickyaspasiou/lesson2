@@ -2,6 +2,11 @@ rm(list = ls())
 datdir=getwd()
 library(rasta)
 
+
+
+plot(1)
+
+
 automap=function(ctr="FR",ctrlvl=2) {
   
   map <- raster::getData("GADM", country = ctr,level = ctrlvl, path = datdir)
